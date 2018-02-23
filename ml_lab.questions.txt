@@ -1,15 +1,15 @@
-<firstname> <lastname>
+Austin Rosenbaum
 CSCI 305
 Spring 2018
 Lab Questions
 =======================
-1.
+1.	val it = [4,2,5,2,6,10] : int list
 
-2.
+2.	The function f adds 1 to every element in the list.
 
-3.
+3.	If the list is empty, return an empty list
 
-4.
+4.	Add 1 to the head, recursively call function on the list's tail.
 
 5.
 
