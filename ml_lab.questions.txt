@@ -11,24 +11,25 @@ Lab Questions
 
 4.	Add 1 to the head, recursively call function on the list's tail.
 
-5.
+5.	val quest5 = false : bool
 
-6.
+6.	Tail recursion
 
-7.
+7.	val quest7 = Set ("best", Set ("times,", Set ("it", Set ("was", Set ("the", Set("worst", Set("of", Set("times", Empty))))))))
+		NOTE: I had to change my print depth in ML to see this full output using Control.Print.printDepth := 1024
 
-8.
+8.	Tail recursing funcions are useful because they can be reduced in memory to almost the same size as a loop. Since the calling function is returning the same result as the recursive call, the recursive call can send its value directly to the return of the calling function, making it much faster and less memory intensive. Using tail recursion allows an interpreter or compiler to optimize the recursive call stack by simply replacing the arguments as it goes along and then returning the final value at the end.
 
-9.
+9.	val quest9 = Set ("ham",Set ("green",Set ("eggs",Set ("and",Empty)))) : string set
 
-10.
+10.	val quest10 = Set ("macaroni",Set ("and",Empty)) : string set
 
-11.
+11.	I like the higher level functions that ML offers. The map and fold commands are very powerful and can reduce a lot of manipulations down to a single line.
 
-12.
+12.	My biggest issue with ML is the lack of support. From editors not natively supporting its syntax to it being difficult to get working correctly on Windows. For me it seems to be more work than it is worth if I were going to implement it in a larger project.
 
-13.
+13.	I actually enjoyed this lab because it made me solve problems that might be trivial in another language in a different way. After having done it this different way, I can see how an ML solution might be better or more efficient. I felt fairly lost with this lab until after finding the ML IV section in the slides and the book, so I felt that reordering this to be earlier would help.
 
-14.
+14.	I spent approximately 15 hours on this lab.
 
-15.
+15.	I do not think I would use ML again. I could see it being useful for small portions of a larger project where there would need to be heavy recursion, but as I mentioned above it seems like more work than it is worth.
